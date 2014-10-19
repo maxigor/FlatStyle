@@ -12,8 +12,8 @@
 
 html {
     color: #222;
-    font-size: 1em;
     line-height: 1.4;
+    font-size: 1em;
 }
 
 /*
@@ -87,6 +87,9 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -101,19 +104,19 @@ body {
 }
 
 .home {
-	background: url("../img/header-bg.png");
-	background-size: auto auto;
-	background-position: center top;
-	height: 735px;
+	background: url("../img/header-bg.png") top center;
 	color: #fff;
+	height: 735px;
 }
 
 h1 {
-	width: 83px;
-	margin: 40px auto 0px;
+	margin: 0px;
+	text-indent: -9999px;
 }
-h1 img {
 
+.home img {
+	width: 83px;
+	margin: 175px 590px 0px;
 }
 
 .home p {
@@ -125,6 +128,11 @@ h1 img {
 .home a {
 	border: 1px solid #fff;
 	padding: 10px 20px;
+	position: relative;
+	left: 556px;
+	padding-right: 67px;
+	font-weight: lighter;
+	font-family: 'ProximaNova';
 }
 
 header {
@@ -163,8 +171,16 @@ header img {
 	float: right;
 }
 
+/* ==================================
+   ABOUT
+ =================================== */
 
 
+
+
+/* ==================================
+   ALL
+ =================================== */
 
 
 a {
@@ -187,6 +203,16 @@ a:hover {
   font-family: 'ProximaNova';
   src: url('../font/ProximaNova-Bold.otf');
   font-weight: bold;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../font/ProximaNova-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/ProximaNova-Bold.woff') format('woff'),
+       url('../font/ProximaNova-Bold.ttf')  format('truetype'),
+       url('../font/ProximaNova-Bold.svg#svgFontName') format('svg');
+       font-weight: bold;
 }
 
 
