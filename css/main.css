@@ -95,102 +95,201 @@ textarea {
    ========================================================================== */
 
 body {
-	font-family: 'ProximaNova';
+  font-family: 'ProximaNova';
 }
 
 .wrap {
-	width: 980px;
-	margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
 
 .home {
-	background: url("../img/header-bg.png") top center;
-	color: #fff;
-	height: 735px;
+  background: url("../img/header-bg.png") top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 735px;
 }
 
 h1 {
-	margin: 0px;
-	text-indent: -9999px;
+  margin: 0px;
+  text-indent: -9999px;
 }
 
-.home img {
-	width: 83px;
-	margin: 175px 590px 0px;
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.insideHome {
+  margin: 0 auto;
+  padding-top: 222px;
+  width: 600px;
+} 
 
 .home p {
-	font-size: 40px;
-	font-weight: lighter;
-	text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 19em;
 }
 
 .home a {
-	border: 1px solid #fff;
-	padding: 10px 20px;
-	position: relative;
-	left: 556px;
-	padding-right: 67px;
-	font-weight: lighter;
-	font-family: 'ProximaNova';
+  width: 164px;
+  height: 49px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 15px 27px 15px 13px;
+  font-weight: lighter;
+  font-family: 'ProximaNova';
 }
 
+.home a.center {
+  width: 8em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home a img {
+  padding-left: 30px;
+}
+
+
 header {
-	background-color: #1b242f;
-	height: 68px;
-	position: relative;
+  background-color: #1b242f;
+  height: 68px;
+  position: relative;
 }
 
 nav {
-	position: relative;
-	top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 nav ul {
-	display: inline;
+  display: inline;
 }
 
 nav ul li {
-	display: inline;
-	float: left;
-	margin-right: 50px;
-	font-size: 15px;
+  display: inline;
+  float: left;
+  margin-right: 50px;
+  font-size: 15px;
 }
 
 nav ul li a {
-	text-decoration: none;
-	color: #fff;
-	text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
-	color: #e74c3c;
+  color: #e74c3c;
 }
 
 header img {
-	float: right;
+  float: right;
 }
 
 /* ==================================
    ABOUT
  =================================== */
 
+.about {
 
+}
 
+.about .row { 
+  margin: 0 auto;
+  width: 1400px;
+  height: 394px;
+  margin-top: 79px;
+}
 
+.about .row .col {
+  width: 300px;
+  height: 344px;
+  float: left;
+  margin-right: 50px;
+}
+
+.about .row .col img {
+  margin: 0 auto;
+  display: block;
+}
+.about .row .col h3 { 
+  text-align: center;
+  color: #666666;
+  font-size: 25px;
+}
+
+.about .row .col p {
+  text-align: center;
+  color: #888888;
+  font-size: 15px;
+}
+
+.about .row .imgCelular {
+    display: inline-block;
+    float: left;
+    margin-right: 189px;
+    margin-left: 72px; 
+}
+
+.about .row .text {
+  width: 541px;
+  height: 200px;
+  float: left;
+}
+.about .row .text h3 {
+  color: #666666;
+  font-size: 40px;
+}
+.about .row .text p {
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 44px;
+}
+.about .row .readMore {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.about .row .readMore img {
+  padding-left: 25px;
+}
+
+/* ==================================
+   PORTFOLIO
+ =================================== */
+ .portfolio {
+
+ }
+
+ .portfolio .works
 /* ==================================
    ALL
  =================================== */
 
 
 a {
-	text-decoration: none;
-	color: #fff;
-	text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 a:hover {
-	color: #e74c3c;
+  color: #e74c3c;
 }
 
 @font-face {
