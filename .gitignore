@@ -26,9 +26,18 @@
 *.sql
 *.sqlite
 
-#Adobe
+# Adobe #
+#########
 *.psd
 *.ai
+
+# Front-end #
+#############
+node_modules
+bower_components
+.sass-cache
+dist # yeoman
+.tmp # yeoman
 
 # OS generated files #
 ######################
